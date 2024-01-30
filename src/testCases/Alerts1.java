@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -11,8 +11,7 @@ public class Alerts1 {
 
 		// test case 1
 		// arrangement
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 		// action
@@ -33,8 +32,7 @@ public class Alerts1 {
 		// test case 2
 
 		// arrangement
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver2 = new ChromeDriver();
 		driver2.get("https://the-internet.herokuapp.com/javascript_alerts");
 		// action
@@ -54,8 +52,7 @@ public class Alerts1 {
 
 		// test case 3
 		// arrangement
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver3 = new ChromeDriver();
 		driver3.get("https://the-internet.herokuapp.com/javascript_alerts");
 		// action
@@ -74,8 +71,7 @@ public class Alerts1 {
 		driver3.close();
 
 		// test case 4
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver4 = new ChromeDriver();
 		driver4.get("https://the-internet.herokuapp.com/javascript_alerts");
 		// action
@@ -93,8 +89,7 @@ public class Alerts1 {
 		driver4.close();
 
 		// test case 5
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver5 = new ChromeDriver();
 		driver5.get("https://the-internet.herokuapp.com/javascript_alerts");
 		// action

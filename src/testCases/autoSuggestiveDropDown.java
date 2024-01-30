@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import java.util.List;
 
@@ -8,8 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class autoSuggestiveDropDown {
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://webdriveruniversity.com/Autocomplete-TextField/autocomplete-textfield.html");
 		// get the title of the page

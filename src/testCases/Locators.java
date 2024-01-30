@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,8 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Locators {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://webdriveruniversity.com/Contact-Us/contactus.html");
 		

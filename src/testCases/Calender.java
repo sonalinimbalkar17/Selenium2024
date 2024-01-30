@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import java.util.List;
 
@@ -10,9 +10,7 @@ public class Calender {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://webdriveruniversity.com/Datepicker/index.html");
 		driver.findElement(By.id("datepicker")).click();

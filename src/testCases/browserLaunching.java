@@ -1,12 +1,11 @@
-package testCase;
+package testCases;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class browserLaunching {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		//open chrome
 		ChromeDriver driver = new ChromeDriver();
 		//navigate to URL

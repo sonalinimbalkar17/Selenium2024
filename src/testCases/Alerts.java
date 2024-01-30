@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,8 +9,7 @@ public class Alerts {
 		// TODO Auto-generated method stub
 		
 		//test case 1
-
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 		driver.findElement(By.cssSelector("button[onclick=\"jsAlert()\"]")).click();

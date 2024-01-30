@@ -1,4 +1,4 @@
-package testCase;
+package testCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,10 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WebDriverMethods {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 
 //		//test case 1
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+//	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 //		ChromeDriver driver = new ChromeDriver();
 //		//1.get()
 //		driver.get("https://www.saucedemo.com/v1/index.html");
@@ -33,8 +32,7 @@ public class WebDriverMethods {
 //		
 
 		// test case 2
-
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 //		ChromeDriver driver = new ChromeDriver();
 //		driver.get("https://www.saucedemo.com/v1/index.html");
 //		driver.findElement(By.id("user-name")).sendKeys("standard_user");
@@ -55,7 +53,7 @@ public class WebDriverMethods {
 //		
 		// test case 3
 
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 //		ChromeDriver driver = new ChromeDriver();
 //		driver.get("https://www.saucedemo.com/v1/index.html");
 //		//6.maximizeWindow()
@@ -65,8 +63,7 @@ public class WebDriverMethods {
 //		
 
 		// test case 4
-
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 //		ChromeDriver driver = new ChromeDriver();
 //		driver.get("https://www.saucedemo.com/v1/index.html");
 //		//System.out.println(driver.getCurrentUrl());
@@ -86,8 +83,7 @@ public class WebDriverMethods {
 //		
 		// test case 5
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sakshi Services SSE\\Downloads\\chromedriver21\\chromedriver\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/v1/index.html");
 		// System.out.println(driver.getCurrentUrl());
